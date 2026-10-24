@@ -1,7 +1,7 @@
 name: treasuretilt
 description: "Treasure Tilt - tilt maze for treasure"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 environment:
   sdk: ^3.13.5
 
