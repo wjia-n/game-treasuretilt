@@ -24,11 +24,11 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: c.darkColor,
       body: Center(child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Text(c.displayName.toUpperCase(), textAlign: TextAlign.center,
+          style: const TextStyle(color: Colors.white, fontSize: 32, fontWeight: FontWeight.w900, shadows: [Shadow(color: Colors.black54, offset: Offset(0, 3), blurRadius: 6)])),
+        const SizedBox(height: 8),
         Text(c.playerEmoji, style: const TextStyle(fontSize: 96)),
         const SizedBox(height: 16),
-        Text(c.displayName.toUpperCase(), textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white, fontSize: 32, fontWeight: FontWeight.w900)),
-        const SizedBox(height: 8),
         Text(c.tagline, textAlign: TextAlign.center,
           style: const TextStyle(color: Colors.white60, fontSize: 14)),
         const SizedBox(height: 24),
